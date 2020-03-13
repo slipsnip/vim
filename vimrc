@@ -1,4 +1,4 @@
-" colorscheme base16-eighties
+colorscheme base16-eighties
 " hi Normal guibg=None ctermbg=None
 let g:tmux_navigator_save_on_switch = 1
 
@@ -16,6 +16,3 @@ let g:airline_theme='base16_eighties'
 
 
 noremap <silent><leader>r :source %<cr>
-
-
-
