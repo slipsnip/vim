@@ -10,3 +10,9 @@
 [submodule "pack/tpope/start/vim-sensible"]
 	path = pack/tpope/start/vim-sensible
 	url = git@github.com:tpope/vim-sensible.git
+[submodule "pack/theme/start/base16-vim"]
+	path = pack/theme/start/base16-vim
+	url = git@github.com:chriskempson/base16-vim.git
+[submodule "pack/misc/start/fzf-vim"]
+	path = pack/misc/start/fzf-vim
+	url = git@github.com:junegunn/fzf.vim
