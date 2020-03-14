@@ -16,3 +16,6 @@
 [submodule "pack/misc/start/fzf-vim"]
 	path = pack/misc/start/fzf-vim
 	url = git@github.com:junegunn/fzf.vim.git
+[submodule "pack/misc/start/vim-tmux-navigator"]
+	path = pack/misc/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
