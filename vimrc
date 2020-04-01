@@ -1,5 +1,5 @@
+" === slipsnip's .vimrc ===
 colorscheme base16-eighties
-" hi Normal guibg=None ctermbg=None
 let g:tmux_navigator_save_on_switch = 1
 
 set nu
@@ -8,11 +8,26 @@ set expandtab
 set mouse=a " For easy pane resize
 set hidden
 set updatetime=300
-" don't give |ins-completion-menu| messages.
-set shortmess+=c
+filetype plugin on
 
-let mapleader=","
-let g:airline_theme='base16_eighties'
+" keyboard mappings
+let mapleader=" "
 
+noremap <silent><leader>r :source $HOME/.vimrc<cr>
+nnoremap <silent><leader>tr :set rnu!<cr>
+nnoremap <silent><leader>tn :set number!<cr>
+nnoremap <space> <nop>
+" locations list mappings
+nnoremap <leader>l :lnext<cr>
+nnoremap <leader>p :lprevious<cr>
+nnoremap <leader>r :lrewind<cr>
 
-noremap <silent><leader>r :source %<cr>
+" ===syntastic===
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
