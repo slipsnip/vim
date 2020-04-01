@@ -19,3 +19,9 @@
 [submodule "pack/misc/start/vim-tmux-navigator"]
 	path = pack/misc/start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule "pack/theme/start/vim-airline"]
+	path = pack/theme/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "pack/theme/start/vim-airline-themes"]
+	path = pack/theme/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes
