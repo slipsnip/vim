@@ -28,3 +28,6 @@
 [submodule "pack/lint/start/syntastic"]
 	path = pack/lint/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic
+[submodule "pack/autocomplete/start/supertab"]
+	path = pack/autocomplete/start/supertab
+	url = git@github.com:ervandew/supertab.git
