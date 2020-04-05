@@ -31,3 +31,12 @@
 [submodule "pack/autocomplete/start/supertab"]
 	path = pack/autocomplete/start/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "pack/misc/start/gutentags"]
+	path = pack/misc/start/gutentags
+	url = git@github.com:ludovicchabant/vim-gutentags.git
+[submodule "pack/autocomplete/start/emmet"]
+	path = pack/autocomplete/start/emmet
+	url = git@github.com:mattn/emmet-vim.git
+[submodule "pack/misc/start/webapi-vim"]
+	path = pack/misc/start/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
