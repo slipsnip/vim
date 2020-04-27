@@ -40,3 +40,6 @@
 [submodule "pack/misc/start/webapi-vim"]
 	path = pack/misc/start/webapi-vim
 	url = git@github.com:mattn/webapi-vim.git
+[submodule "pack/misc/start/Colorizer"]
+	path = pack/misc/start/Colorizer
+	url = git@github.com:chrisbra/Colorizer
