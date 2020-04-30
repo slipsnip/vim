@@ -43,3 +43,6 @@
 [submodule "pack/theme/start/lightline"]
 	path = pack/theme/start/lightline
 	url = git@github.com:itchyny/lightline.vim
+[submodule "pack/theme/start/base16-vim-lightline"]
+	path = pack/theme/start/base16-vim-lightline
+	url = git@github.com:mike-hearn/base16-vim-lightline
