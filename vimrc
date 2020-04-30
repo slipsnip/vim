@@ -33,9 +33,9 @@ nnoremap <leader>r :lrewind<cr>
 map <A-]> :vsp<cr>:exec("tag ".expand("<cword>"))<cr>
 nnoremap ,html :-1read ~/.vim/skel/skeleton.html<cr>5jwcit
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
