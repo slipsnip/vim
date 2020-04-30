@@ -19,12 +19,6 @@
 [submodule "pack/misc/start/vim-tmux-navigator"]
 	path = pack/misc/start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
-[submodule "pack/theme/start/vim-airline"]
-	path = pack/theme/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
-[submodule "pack/theme/start/vim-airline-themes"]
-	path = pack/theme/start/vim-airline-themes
-	url = git@github.com:vim-airline/vim-airline-themes
 [submodule "pack/lint/start/syntastic"]
 	path = pack/lint/start/syntastic
 	url = git@github.com:vim-syntastic/syntastic
@@ -43,3 +37,9 @@
 [submodule "pack/misc/start/Colorizer"]
 	path = pack/misc/start/Colorizer
 	url = git@github.com:chrisbra/Colorizer
+[submodule "pack/theme/start/vimwiki"]
+	path = pack/theme/start/vimwiki
+	url = git@github.com:vimwiki/vimwiki
+[submodule "pack/theme/start/lightline"]
+	path = pack/theme/start/lightline
+	url = git@github.com:itchyny/lightline.vim
