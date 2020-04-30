@@ -1,5 +1,10 @@
 " [ slipsnip's .vimrc ]
-" colorscheme base16-eighties
+" lightline colorscheme
+let g:lightline = {
+        \ 'colorscheme': 'base16_eighties',
+        \ }
+
+" vim colorscheme base16-eighties
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
@@ -13,6 +18,7 @@ set hidden
 set updatetime=300
 set path+=**
 set wildmenu
+set noshowmode
 filetype plugin on
 
 let mapleader=" "
