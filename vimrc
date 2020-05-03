@@ -1,27 +1,46 @@
 " [ slipsnip's .vimrc ]
 " lightline colorscheme
-let g:lightline = {
-        \ 'colorscheme': 'base16_eighties',
-        \ }
+" let g:lightline = {
+"         \ 'colorscheme': 'base16_eighties',
+"         \ }
 
-" vim colorscheme base16-eighties
-if filereadable(expand("~/.vimrc_background"))
-  let base16colorspace=256
-  source ~/.vimrc_background
-endif
+colorscheme gruvbox
 
+set nocompatible
+syntax on
 set nu
 set smarttab
 set expandtab
+set autoindent
+set backspace=indent,eol,start
+set encoding=utf-8
 set mouse=a
 set hidden
 set updatetime=300
 set path+=**
 set wildmenu
 set noshowmode
-filetype plugin on
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+
+filetype plugin indent on
 
 let mapleader=" "
+
+" vim Plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+Plug 'itchyny/lightline.vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'vimwiki/vimwiki'
+Plug 'vim-syntastic/syntastic'
+Plug 'morhetz/gruvbox'
+
+call plug#end()
 
 nnoremap <leader>so :source $HOME/.vimrc<cr>
 nnoremap <silent><leader>tr :set rnu!<cr>
