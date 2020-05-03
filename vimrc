@@ -63,5 +63,4 @@ let g:syntastic_check_on_wq = 0
 
 let g:tmux_navigator_save_on_switch = 1
 
-let g:colorizer_x11_names = 1
-" let g:colorizer_hex_pattern = ['rgb:', '\%(\x\{2}\/\?\)\{3}', '\>']
+" vim:set ft=vim et sw=2:
